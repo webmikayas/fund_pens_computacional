@@ -1,0 +1,75 @@
+@charset "uft-8";
+/*#5676A1, #424656, #a6abbd*/
+
+:root{
+ --fundtela: #5676A1;
+  --desttexto: #424656;
+  --linktela:#a6abbd;
+}
+
+
+/* Esses são os comentarios do Css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  /* Serve para colorir o fundo de pagina, usando o hexadecimal.
+    E podemos usar o background image para colocar mais cores de paginas */
+
+  /* background-color:silver;*/
+
+  background-image: linear-gradient(to left bottom, #0e4598, #071e2b);
+  background-image: url("/homem-aranha.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: justify;
+  color: #000000;
+
+}
+
+header, h1{ text-align: center;
+    /*inserir explicação*/
+
+    width: 100vw;
+    height: 15vh;
+    background-color:var(--desttexto);
+}
+
+menu, ul{  text-align: center;
+    /*inserir explicação*/
+
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--desttexto);
+  color: #ffffff;
+}
+
+li{
+    /*inserir explicação*/
+
+}
+
+section{
+    width: 100vw;
+    height: auto;
+    background-color: var(--linktela);
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color:var(--linktela);
+
+}
+
+p{
+    color: #1975b3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
